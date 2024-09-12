@@ -1,11 +1,29 @@
 body {
     color: white;
-    background: black;
+    background: rgb(255, 146, 152);
+    font-family: "Work Sans", sans-serif;
 }
 
 header {
-    border-bottom: solid 2px rgb(255, 134, 134);
+    border-bottom: solid 2px rgb(0, 230, 199);
     padding: 20px;
     font-size: 32px;
-    color: rgb(255, 134, 134)
+    color: rgb(0, 230, 199)
+}
+
+section {
+    background: rgb(0, 230, 199);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.chamada-video{
+    margin-right: 5%;
 }
